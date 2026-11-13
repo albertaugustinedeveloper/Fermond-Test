@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FERMOND SAFFRON — Nature's Finest</title>
+  <meta name="description"
+    content="Discover the extraordinary beauty and richness of FERMOND SAFFRON. Pure natural saffron from pristine mountain valleys.">
+
+  <!-- Google Fonts: Cormorant Garamond & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Preload mobile background for fast paint on small screens -->
+  <link rel="preload" as="image"
+        href="assets/fermond-hero-mobile.png"
+        media="(max-width: 820px)">
+</head>
+
+<body>
+
+  <!-- ==============================================
+       FULLSCREEN LUXURY HERO (Single-Screen)
+       Background Image: assets/fermond-hero.webp
+       ============================================== -->
+  <div class="hero-screen" id="heroScreen">
+
+    <!-- Interactive Parallax Background Layer (Direct, Unfiltered Original Colors) -->
+    <div class="hero-bg-layer" id="heroBgLayer" aria-hidden="true"></div>
+
+    <!-- 1. COMPACT FLOATING NAVBAR (Left: FERMOND Wordmark, Right: Social Icons) -->
+    <header class="nav-container" id="navContainer">
+      <nav class="nav-pill" aria-label="Main Navigation">
+        <!-- LEFT: FERMOND Wordmark in Elegant Serif -->
+        <a href="#" class="brand-link" aria-label="FERMOND SAFFRON">
+          <span class="brand-wordmark">FERMOND</span>
+        </a>
+
+        <!-- Elegant Micro Divider -->
+        <span class="nav-divider" aria-hidden="true"></span>
+
+        <!-- RIGHT: Minimal Black Outline Social Icons -->
+        <div class="nav-socials">
+          <a href="https://www.instagram.com/skymars.in/" target="_blank" rel="noopener noreferrer"
+            class="social-icon-btn" aria-label="FERMOND on Instagram">
+            <svg class="social-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+            </svg>
+          </a>
+          <a href="https://wa.me/919895727570" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+            aria-label="Chat with FERMOND on WhatsApp">
+            <svg class="social-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- REALISTIC FALLING SAFFRON CROCUS FLOWERS (Delicate botanical animation) -->
+    <div class="petals-canvas" aria-hidden="true">
+      <img src="assets/saffron_crocus_flower.svg" class="crocus-flower fl-1" alt="">
+      <img src="assets/saffron_crocus_flower.svg" class="crocus-flower fl-2" alt="">
+      <img src="assets/saffron_crocus_flower.svg" class="crocus-flower fl-3" alt="">
+      <img src="assets/saffron_crocus_flower.svg" class="crocus-flower fl-4" alt="">
+      <img src="assets/saffron_crocus_flower.svg" class="crocus-flower fl-5" alt="">
+      <img src="assets/saffron_crocus_flower.svg" class="crocus-flower fl-6" alt="">
+    </div>
+
+    <!-- MAIN HERO CONTENT (Left-Center, Slightly Below Midpoint) -->
+    <main class="hero-content">
+      <!-- Eyebrow Label -->
+      <div class="hero-eyebrow">
+        <span class="eyebrow-accent-dot"></span>
+        <span class="eyebrow-text">PURE &bull; NATURAL &bull; PREMIUM</span>
+      </div>
+
+      <!-- Main Serif Headline -->
+      <h1 class="hero-headline">
+        Nature's Finest.<br>
+        <span class="italic-serif">Captured in Every Strand.</span>
+      </h1>
+
+      <!-- Supporting Text -->
+      <p class="hero-subtext">
+        Discover the extraordinary beauty and richness of premium saffron.
+      </p>
+
+      <!-- Primary CTA Button -->
+      <div class="hero-cta-group">
+        <a href="#" class="btn-primary">
+          <span>DISCOVER FERMOND</span>
+          <svg class="btn-arrow" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 10H16M16 10L10.5 4.5M16 10L10.5 15.5" stroke="currentColor" stroke-width="1.6"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+      </div>
+    </main>
+
+    <!-- BOTTOM CREDIT: TECHNOLOGY PARTNER IN SMALL PILL CONTAINER -->
+    <div class="tech-partner-pill">
+      <span>Technology Partner:</span>
+      <a href="https://lindro.in" target="_blank" rel="noopener noreferrer" class="tech-partner-link">lindro.in</a>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
